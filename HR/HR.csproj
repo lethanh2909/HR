@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6A2018C-B6CE-49C5-86C6-ED26702681F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HR</RootNamespace>
+    <AssemblyName>HR</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="Mathematical.Expressions, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Mathematical.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\AdjustmentDAO.cs" />
+    <Compile Include="DAO\AllowanceFormulaDAO.cs" />
+    <Compile Include="DAO\AllowanceSummaryDAO.cs" />
+    <Compile Include="DAO\EarlyAndLateDAO.cs" />
+    <Compile Include="DAO\OvertimeDAO.cs" />
+    <Compile Include="DAO\OvertimeSummaryDAO.cs" />
+    <Compile Include="DAO\OvertimeTypeDAO.cs" />
+    <Compile Include="DAO\SalaryAdjustmentDAO.cs" />
+    <Compile Include="DAO\SalaryFormulaDAO.cs" />
+    <Compile Include="DAO\ShiftEmployeeDAO.cs" />
+    <Compile Include="DAO\ShiftScheduleDAO.cs" />
+    <Compile Include="DAO\SummaryDAO.cs" />
+    <Compile Include="DAO\TimekeepingDAO.cs" />
+    <Compile Include="DAO\WorkShiftDAO.cs" />
+    <Compile Include="DTO\Adjustment.cs" />
+    <Compile Include="DTO\AllowanceFormula.cs" />
+    <Compile Include="DTO\AllowanceSummary.cs" />
+    <Compile Include="DTO\EarlyAndLate.cs" />
+    <Compile Include="DTO\Overtime.cs" />
+    <Compile Include="DTO\OvertimeSummary.cs" />
+    <Compile Include="DTO\OvertimeType.cs" />
+    <Compile Include="DTO\SalaryAdjustment.cs" />
+    <Compile Include="DTO\SalaryFormula.cs" />
+    <Compile Include="DTO\ShiftEmployee.cs" />
+    <Compile Include="DTO\ShiftSchedule.cs" />
+    <Compile Include="DTO\Summary.cs" />
+    <Compile Include="DTO\TImekeeping.cs" />
+    <Compile Include="DTO\WorkShift.cs" />
+    <Compile Include="fAdjustAllowance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAdjustAllowance.Designer.cs">
+      <DependentUpon>fAdjustAllowance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\AllowanceDAO.cs" />
+    <Compile Include="DAO\DepartmentDAO.cs" />
+    <Compile Include="DAO\EmployeeDAO.cs" />
+    <Compile Include="DAO\PositionDAO.cs" />
+    <Compile Include="DAO\SalaryDAO.cs" />
+    <Compile Include="DTO\Allowance.cs" />
+    <Compile Include="DTO\Department.cs" />
+    <Compile Include="DTO\Employee.cs" />
+    <Compile Include="DTO\Position.cs" />
+    <Compile Include="DTO\Salary.cs" />
+    <Compile Include="fAdjustSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAdjustSalary.Designer.cs">
+      <DependentUpon>fAdjustSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAssignShift.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAssignShift.Designer.cs">
+      <DependentUpon>fAssignShift.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fChangeProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fChangeProfile.Designer.cs">
+      <DependentUpon>fChangeProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\Dataprovider.cs" />
+    <Compile Include="DTO\Account.cs" />
+    <Compile Include="fManageEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fManageEmployee.Designer.cs">
+      <DependentUpon>fManageEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fHR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fHR.Designer.cs">
+      <DependentUpon>fHR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLogin.Designer.cs">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fManageAcc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fManageAcc.Designer.cs">
+      <DependentUpon>fManageAcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fManageEarlyLate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fManageEarlyLate.Designer.cs">
+      <DependentUpon>fManageEarlyLate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fManageOvertime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fManageOvertime.Designer.cs">
+      <DependentUpon>fManageOvertime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fManagePosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fManagePosition.Designer.cs">
+      <DependentUpon>fManagePosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fManageDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fManageDepartment.Designer.cs">
+      <DependentUpon>fManageDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fManageShifts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fManageShifts.Designer.cs">
+      <DependentUpon>fManageShifts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fManageTimekeeping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fManageTimekeeping.Designer.cs">
+      <DependentUpon>fManageTimekeeping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fModifyAdjustment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fModifyAdjustment.Designer.cs">
+      <DependentUpon>fModifyAdjustment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fModifyAllFormula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fModifyAllFormula.Designer.cs">
+      <DependentUpon>fModifyAllFormula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fModifySalaryFormula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fModifySalaryFormula.Designer.cs">
+      <DependentUpon>fModifySalaryFormula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fModifyOvertimeType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fModifyOvertimeType.Designer.cs">
+      <DependentUpon>fModifyOvertimeType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSalaryCalculation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSalaryCalculation.Designer.cs">
+      <DependentUpon>fSalaryCalculation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="fSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSalary.Designer.cs">
+      <DependentUpon>fSalary.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="fAdjustAllowance.resx">
+      <DependentUpon>fAdjustAllowance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAdjustSalary.resx">
+      <DependentUpon>fAdjustSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAssignShift.resx">
+      <DependentUpon>fAssignShift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fChangeProfile.resx">
+      <DependentUpon>fChangeProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fHR.resx">
+      <DependentUpon>fHR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLogin.resx">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fManageAcc.resx">
+      <DependentUpon>fManageAcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fManageEmployee.resx">
+      <DependentUpon>fManageEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fManageEarlyLate.resx">
+      <DependentUpon>fManageEarlyLate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fManageOvertime.resx">
+      <DependentUpon>fManageOvertime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fManagePosition.resx">
+      <DependentUpon>fManagePosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fManageDepartment.resx">
+      <DependentUpon>fManageDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fManageShifts.resx">
+      <DependentUpon>fManageShifts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fManageTimekeeping.resx">
+      <DependentUpon>fManageTimekeeping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fModifyAdjustment.resx">
+      <DependentUpon>fModifyAdjustment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fModifyAllFormula.resx">
+      <DependentUpon>fModifyAllFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fModifySalaryFormula.resx">
+      <DependentUpon>fModifySalaryFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSalary.resx">
+      <DependentUpon>fSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fModifyOvertimeType.resx">
+      <DependentUpon>fModifyOvertimeType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSalaryCalculation.resx">
+      <DependentUpon>fSalaryCalculation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

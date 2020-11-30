@@ -1,0 +1,52 @@
+C:\Users\Admin\source\repos\HR\HR\bin\Debug\HR.exe.config
+C:\Users\Admin\source\repos\HR\HR\bin\Debug\HR.exe
+C:\Users\Admin\source\repos\HR\HR\bin\Debug\HR.pdb
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.Properties.Resources.resources
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.exe
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.pdb
+C:\Users\Admin\source\repos\HR\HR\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Admin\source\repos\HR\HR\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.csproj.CopyComplete
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.fHR.resources
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.fLogin.resources
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.fManageAcc.resources
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.fChangeProfile.resources
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.fManageDepartment.resources
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.fManagePosition.resources
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.fManageEmployee.resources
+C:\Users\Admin\source\repos\HR\HR\obj\Debug\HR.fSalary.resources
+C:\Users\Admin\Google Drive\HR\HR\bin\Debug\HR.exe.config
+C:\Users\Admin\Google Drive\HR\HR\bin\Debug\HR.exe
+C:\Users\Admin\Google Drive\HR\HR\bin\Debug\HR.pdb
+C:\Users\Admin\Google Drive\HR\HR\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Admin\Google Drive\HR\HR\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.csprojAssemblyReference.cache
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fChangeProfile.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fHR.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fLogin.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fManageAcc.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fManageEmployee.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fManagePosition.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fManageDepartment.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fSalary.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.Properties.Resources.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.csproj.GenerateResource.cache
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.csproj.CopyComplete
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.exe
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.pdb
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fAdjustAllowance.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fAdjustSalary.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fModifyAdjustment.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fModifySalaryFormula.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fManageShifts.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fManageTimekeeping.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fAssignShift.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fManageEarlyLate.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fManageOvertime.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fModifyOvertimeType.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fSalaryCalculation.resources
+C:\Users\Admin\Google Drive\HR\HR\obj\Debug\HR.fModifyAllFormula.resources
